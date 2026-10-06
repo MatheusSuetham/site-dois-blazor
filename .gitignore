@@ -1,0 +1,21 @@
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## .NET
+bin/
+obj/
+
+## JetBrains Rider
+.idea/
+*.sln.iml
+
+## VS Code
+.vscode/
+
+## Sistema operacional
+.DS_Store
+Thumbs.db

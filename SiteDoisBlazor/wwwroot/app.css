@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f6f7f9;
+    color: #222;
+}
+
+.page {
+    min-height: 100vh;
+    display: flex;
+}
+
+.sidebar {
+    width: 240px;
+    background: #20232a;
+    padding: 24px 16px;
+}
+
+.nav-title {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+nav a {
+    color: #e9ecef;
+    text-decoration: none;
+    padding: 10px 12px;
+    border-radius: 6px;
+}
+
+nav a.active {
+    background: white;
+    color: #20232a;
+}
+
+main {
+    flex: 1;
+}
+
+.content {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 48px 32px;
+}
+
+label {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    max-width: 320px;
+}
+
+button {
+    display: block;
+    margin-top: 16px;
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+.aprovado {
+    color: green;
+    font-weight: bold;
+}
+
+.reprovado {
+    color: red;
+    font-weight: bold;
+}
